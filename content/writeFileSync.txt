@@ -1,0 +1,3 @@
+this is WRITE FILE by fs.writeFileSync 
+    so i'm gonna combine heyy this is FIRST text file ---- heyy this is SECOND text file}FROM HERE the Append File --this is WRITE FILE by fs.writeFileSync
+          so i'm gonna combine heyy this is FIRST text file ---- heyy this is SECOND text file'
