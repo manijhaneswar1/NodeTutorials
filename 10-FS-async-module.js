@@ -10,15 +10,14 @@ fs.readFile('./content/first.txt','utf8',(err,res)=>{
             console.log(err);
             return;
         }
-        const second=res;
         fs.writeFile('./content/writeFileAsync.txt',
-            `here is the result : ${first} and ${second}`,
+            `here is the result : ${first} and ${res}`,
             {flag : 'a'},
             (err,res)=>{
             if(err){
                 console.log(err);
             }
             console.log(res);
-            })
+        })
     })
 })

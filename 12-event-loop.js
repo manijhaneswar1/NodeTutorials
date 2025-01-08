@@ -10,5 +10,5 @@ server.listen(8080,()=>{
 });
 
 
-// Event Loop that the main thread is never blocked, allowing
+// Event Loop ensures that the main thread is never blocked, allowing
 // node.js to handle a large number of concurrent operations efficiently.
